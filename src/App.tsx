@@ -1,3 +1,4 @@
+import BoxAnimation from "./components/boxAnimation/BoxAnimation"
 import DottedBorderBox from "./components/dotted-border-box/DottedBorderBox"
 
 
@@ -12,6 +13,13 @@ const App = () => {
           </div>
           <p className="font-medium text-lg text-neutral-700 text-center">Dotted Border Box</p>
           <p className="text-neutral-500 text-center">03/06/2026</p>
+        </div>
+        <div>
+          <div className="h-100 w-full bg-zinc-300 rounded-2xl border-2 border-zinc-400 p-4 shadow-md">
+            <BoxAnimation/>
+          </div>
+          <p className="font-medium text-lg text-neutral-700 text-center">Box Animation</p>
+          <p className="text-neutral-500 text-center">04/06/2026</p>
         </div>
         
       </div>
