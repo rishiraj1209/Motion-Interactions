@@ -2,6 +2,7 @@ import ArcInteraction from "./components/arcInteraction/ArcInteraction"
 import BoxAnimation from "./components/boxAnimation/BoxAnimation"
 import DottedBorderBox from "./components/dotted-border-box/DottedBorderBox"
 import GestureAnimation from "./components/gestureAnimation/GestureAnimation"
+import SidebarStaggerAnimation from "./components/sidebarStagger/SidebarStaggerAnimation"
 
 
 const interactions = [
@@ -24,6 +25,11 @@ const interactions = [
     title: "Gesture Animation",
     date:"09/06/2026",
     component: GestureAnimation
+  },
+  {
+    title:"Stagger Animation",
+    date:"20/06/2026",
+    component:SidebarStaggerAnimation
   }
 ]
 
