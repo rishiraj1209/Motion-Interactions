@@ -3,6 +3,7 @@ import ArcInteraction from "./components/arcInteraction/ArcInteraction"
 import BoxAnimation from "./components/boxAnimation/BoxAnimation"
 import DottedBorderBox from "./components/dotted-border-box/DottedBorderBox"
 import GestureAnimation from "./components/gestureAnimation/GestureAnimation"
+import PaymentButton from "./components/paymentButton/PaymentButton"
 import SidebarStaggerAnimation from "./components/sidebarStagger/SidebarStaggerAnimation"
 
 
@@ -36,6 +37,11 @@ const interactions = [
     title:"Animated Text",
     date:"21/06/2026",
     component:AnimatedText
+  },
+  {
+    title:"Payments Button",
+    date:"21/06/2026",
+    component:PaymentButton
   }
 ]
 
