@@ -1,3 +1,4 @@
+import AnimatedText from "./components/animatedText/AnimatedText"
 import ArcInteraction from "./components/arcInteraction/ArcInteraction"
 import BoxAnimation from "./components/boxAnimation/BoxAnimation"
 import DottedBorderBox from "./components/dotted-border-box/DottedBorderBox"
@@ -30,6 +31,11 @@ const interactions = [
     title:"Stagger Animation",
     date:"20/06/2026",
     component:SidebarStaggerAnimation
+  },
+  {
+    title:"Animated Text",
+    date:"21/06/2026",
+    component:AnimatedText
   }
 ]
 
